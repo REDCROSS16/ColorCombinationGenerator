@@ -82,8 +82,4 @@ colors.forEach(element => {
     let cell = row.insertCell(0)
 
     cell.innerHTML = element;
-    // switch(element) {
-    //     case 'Г': cell.setAttribute('style', 'color:lightblue; border: 1px solid blue;');
-    //     default: '';
-    // }
 });
